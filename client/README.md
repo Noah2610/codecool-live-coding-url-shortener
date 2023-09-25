@@ -1,0 +1,11 @@
+# URL Shortener App
+- backend with URL shortener API
+    - POST endpoint to shorten URL `/short`
+        - needs: URL to shorten, name
+    - GET endpoint to get all shortened URLs `/short`
+- DB entity `Short`
+    - real URL / long URL
+    - short URL
+    - name
+- page to shorten given URL -> save shortened URL in backend
+- page to list shortened URLs
